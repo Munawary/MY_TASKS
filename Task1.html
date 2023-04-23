@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>MyDocument</title>
+        <script>
+            function selectAllimages()
+            {
+                const images= document.querySelectorAll('img');
+                const imagesArray = Array.from(images);
+                return imagesArray;
+            }
+            console.log(selectAllimages);
+        </script>
+    </head>
+    <body>
+        <img src="https://media.gighy.com/media/jaqvaWqpKflmQ/gighy.gif" alt="all">
+        <button onclick="selectAllimages">Click me</button>
+    </body>
+</html>
